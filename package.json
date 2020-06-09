@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-mobile-foundation",
+  "version": "1.0.0",
+  "description": "The Node.js Mobile Foundation stack for microservice developers to rapidly build backend-for-frontend patterns for mobile applications interfacing with IBM Mobile Foundation",
+  "license": "See https://mobilefirstplatform.ibmcloud.com/licenses/ipla",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MobileFirst-Platform-Developer-Center/stacks/stacks.git"
+  },
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
