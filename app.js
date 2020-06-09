@@ -19,7 +19,7 @@ module.exports = (options) => {
 					 		  This custom data is available on the analytics console to build custom charts.
 
 	********************************************************************************/
-	app.post('/order',mf.securityUtils.mfpAuth('accessRestricted'), (req, res) => {
+	app.post('/order',mf.securityUtils.mfpAuth('RegisteredClient'), (req, res) => {
 		var messageText = "Hello world from MFP";
 		mf.push.sendNotification(messageText);
 
