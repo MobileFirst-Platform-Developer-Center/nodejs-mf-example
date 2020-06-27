@@ -22,6 +22,7 @@ module.exports = (options) => {
 	app.post('/order',mf.securityUtils.mfpAuth('RegisteredClient'), (req, res) => {
 		var messageText = "Hello world from MFP";
 		mf.push.sendNotification(messageText);
+		//TEST
 
 		mf.liveupdate.setProperty('bcg1', 'background', 'blue', "Property that is used to set background color");
 		
