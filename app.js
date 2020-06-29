@@ -4,7 +4,7 @@ module.exports = (options) => {
 
 	app.get('/helloworld', (req, res) => {
 		res.send("Hello from CP4A");
-	}
+	});
 
 	/********************************************************************************
 	Below is a sample.
