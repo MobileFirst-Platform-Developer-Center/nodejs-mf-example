@@ -1,6 +1,11 @@
 module.exports = (options) => {
 	const app = require('express')()
 	const mf = options.mf;
+
+	app.get('/helloworld', (req, res) => {
+		res.send("Hello from CP4A");
+	}
+
 	/********************************************************************************
 	Below is a sample.
 
